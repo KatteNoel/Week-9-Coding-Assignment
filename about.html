@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <!--required scripts to run bootstrap-->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--brand logo-->
+        <a class="navbar-brand" href="index.html">Week 9 Coding Assignment</a>
+        <!--mobile toggler-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+            aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar items-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--about us-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h2>About Us</h2>
+            </div>
+            <div class="col-sm-10">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--table-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h2>Our Data</h2>
+        </div>
+        <div class="col-sm-10">
+            <table class="table table-dark table-hover">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Katte</td>
+                    <td>kattenoel@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Katte</td>
+                    <td>kattenoel@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Katte</td>
+                    <td>kattenoel@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Katte</td>
+                    <td>kattenoel@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--contact form-->
+    <form class="container form-group">
+        <h2>Contact Us</h2>
+        <div class="form-row">
+            <input type="text" name="firstName" placeholder="First Name" class="form-control">
+            <input type="text" name="lastName" placeholder="Last Name" class="form-control">
+            <div class="form-row"><input type="text" name="emailAddress" placeholder="Email Address" class="form-control"></div>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
