@@ -1,3 +1,18 @@
 body{
     background-color: paleturquoise;
 }
+
+img{
+    height:500px;
+}
+
+#margin{
+    margin: 1rem;
+}
+
+#centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
